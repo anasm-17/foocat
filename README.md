@@ -22,6 +22,7 @@ pip install -i https://test.pypi.org/simple/ foocat
 ### Usage
 
 ```
+>>> from foocat import foocat
 >>> import pandas as pd
 >>> a = pd.Categorical(["character", "hits", "your", "eyeballs"])
 >>> b = pd.Categorical(["but", "integer", "where it", "counts"])
